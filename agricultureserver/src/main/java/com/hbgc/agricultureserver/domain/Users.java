@@ -30,7 +30,9 @@ public class Users extends BaseEntity implements Serializable,Cloneable {
     private String mobile;
     private String email;
     private String validateCode;
-    private String token;//登录成功之后的token值。用来做身份验证。
+    private String token;//登录成功之后的token值。用来做身份验证
+    private String company;//属于哪个公司
+    private int administration;//权限
 
 
 

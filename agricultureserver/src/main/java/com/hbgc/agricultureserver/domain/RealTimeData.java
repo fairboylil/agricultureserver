@@ -20,13 +20,13 @@ public class RealTimeData extends BaseEntity implements Serializable,Cloneable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    private String company;//企业
+    private String area;//地区
     private String airTemperature;//空气温度
     private String soilTemperature;//土壤温度
     private String airHumidity;//空气湿度
     private String soilHumidity;//土壤湿度
     private String time;//测量时间
-    private String company;//企业
-    private String area;//地区
     private String illumination;//光照强度
     private String carbon;//二氧化碳浓度
     private String windDirection;//风向
